@@ -2,7 +2,7 @@
 指针生成网络，中文数据集下生成摘要, 详情 https://blog.csdn.net/weixin_46133588/article/details/104419213
 
 # 改动的地方
-原论文的指针生成网络，对于正文和摘要的特征抽取是采用单层(双向）的LSTM进行抽取的，我将其变为Bert的embedding。模型的整体框架没有变动，但是工程上的处理进行了微调。
+原论文的指针生成网络，对于正文和摘要的特征抽取是采用单层(双向）的LSTM进行抽取的，我将其变为Bert的embedding的结构。模型的整体框架没有变动，但是工程上的处理进行了微调。（并非使用了Bert）
 
 中文数据：
 https://github.com/brightmart/nlp_chinese_corpus
